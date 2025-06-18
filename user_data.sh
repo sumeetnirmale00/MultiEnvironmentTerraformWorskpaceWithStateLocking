@@ -47,7 +47,7 @@ cat <<EOF | sudo tee /var/www/html/index.html
 <body>
   <div class="container">
     <h1>🚀 Hello from Nginx!</h1>
-    <p>This server was launched with Terraform and set up using a bash script.</p>
+    <p>This server was launched with Terraform and set up using a bash script in Production Environment.</p>
     <p>Everything is running smoothly!</p>
   </div>
 </body>
