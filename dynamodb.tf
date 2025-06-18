@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "terraform_lock_table" {
-  name         = "sumeet-terraform-prod-lock-table"   # Change name if needed
+  name         = "sumeet-terraform-lock-table"   # Change name if needed
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
 
@@ -9,7 +9,7 @@ resource "aws_dynamodb_table" "terraform_lock_table" {
   }
 
   tags = {
-    Name        = "Terraform State Lock Prod Table"
+    Name        = "Terraform State Lock Table"
     Environment = "prod"
   }
 }
