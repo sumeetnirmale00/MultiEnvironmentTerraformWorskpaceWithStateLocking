@@ -4,10 +4,10 @@ provider "aws" {
 
 # terraform {
 #   backend "s3" {
-#     bucket         = "sumeet-terraform-backend-bucket"
+#     bucket         = "sumeet-terraform-dev-backend-bucket""sumeet-terraform-backend-bucket"
 #     key            = "global/sumeet/terraform.tfstate"
 #     region         = "us-east-1"
-#     dynamodb_table = "sumeet-terraform-lock-table"
+#     dynamodb_table = "sumeet-terraform-dev-lock-table"
 #     encrypt        = true
 #   }
 # }
