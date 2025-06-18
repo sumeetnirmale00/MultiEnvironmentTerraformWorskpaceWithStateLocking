@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "key_name" {
-  default = "my-key"
+  default = "my-key-test"
 }
 
 variable "public_key_path" {
