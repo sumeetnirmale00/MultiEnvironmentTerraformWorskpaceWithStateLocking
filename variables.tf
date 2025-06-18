@@ -32,5 +32,5 @@ variable "private_subnet_cidr_block" {
 }
 
 variable "environment" {
-  default = "Prod"
+  default = "Dev"
   }
