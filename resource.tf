@@ -1,12 +1,9 @@
 resource "aws_instance" "web" {
   for_each = tomap({
     #Key = Instance Type
-    "Terraform Instance 1" = "t2.micro", 
-    "Terraform Instance 2" = "t2.micro",
-    "Terraform Instance 3" = "t2.micro",
-    "Terraform Instance 4" = "t2.micro",    
+    "Terraform Instance 1" = "t2.medium", 
+    "Terraform Instance 2" = "t2.medium",
       })
-
 
   ami                         = var.ami_id # Amazon Linux 2 AMI (for us-east-1)
   instance_type               = each.value # Instance Type from the map
