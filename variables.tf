@@ -11,12 +11,11 @@ variable "public_key_path" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t2.nano" # Default instance type
 }
 
 variable "ami_id" {
   default = "ami-0a7d80731ae1b2435" # Amazon Linux 2 AMI (for us-east-1)
-  
 }
 
 variable "vpc_cidr_block" {
