@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "key_name" {
-  default = "my-key-prod"
+  default = "my-key"
 }
 
 variable "public_key_path" {
