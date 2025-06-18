@@ -9,7 +9,7 @@ resource "aws_dynamodb_table" "terraform_lock_table" {
   }
 
   tags = {
-    Name        = "Terraform State Lock Dev Table"
+    Name        = "Terraform State Lock Prod Table"
     Environment = "prod"
   }
 }
