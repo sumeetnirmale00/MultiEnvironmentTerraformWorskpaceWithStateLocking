@@ -2,9 +2,7 @@ resource "aws_instance" "web" {
   for_each = tomap({
     #Key = Instance Type
     "Terraform Instance 1" = "t2.micro", 
-    "Terraform Instance 2" = "t2.micro",
-    "Terraform Instance 3" = "t2.micro",
-    "Terraform Instance 4" = "t2.micro",    
+    "Terraform Instance 2" = "t2.micro",  
       })
 
 
