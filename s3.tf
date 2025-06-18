@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state_bucket" {
-  bucket = "sumeet-terraform-test-backend-bucket"
+  bucket = "sumeet-terraform-prod-backend-bucket"
 
   tags = {
     Name        = "Terraform Backend Bucket"
